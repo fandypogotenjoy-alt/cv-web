@@ -279,30 +279,22 @@
         .content-area::-webkit-scrollbar { width: 8px; }
         .content-area::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); border-radius: 4px;}
         .content-area::-webkit-scrollbar-thumb { background: var(--neon-cyan); border-radius: 4px; }
-        /* ========================================= */
-        /* PENGATURAN RESPONSIVE UNTUK HP (MOBILE)   */
-        /* ========================================= */
         @media (max-width: 768px) {
-            /* 1. Tambah ruang kosong di bawah agar bisa di-scroll lewat dari navigasi */
             .content-area {
                 padding: 20px 20px 180px 20px !important; 
             }
 
-            /* 2. Ubah grid profil jadi atas-bawah (foto di atas, teks di bawah) */
             .profile-grid {
                 grid-template-columns: 1fr;
                 gap: 20px;
-                text-align: center; /* Teks ke tengah di HP */
+                text-align: center; 
             }
-
-            /* 3. Perkecil ukuran foto di HP */
             .cyber-portrait {
                 height: 300px;
                 width: 80%;
                 margin: 0 auto;
             }
 
-            /* 4. Perkecil ukuran Font Nama dan Judul */
             .glitch-text {
                 font-size: 32px;
             }
@@ -375,9 +367,10 @@
                     <div class="skill-bar"><div class="skill-fill" data-percent="94%"></div></div>
                 </div>
                 <div class="skill-item">
-                    <div class="skill-header"><span>ANIMASI </span><span>92%</span></div>
-                    <div class="skill-bar"><div class="skill-fill" data-percent="92%"></div></div>
-                </div>
+                    <div class="skill-item">
+    <div class="skill-header"><span>ANIMASI & MOTION GRAPHICS</span><span>80%</span></div>
+    <div class="skill-bar"><div class="skill-fill" data-percent="80%"></div></div>
+    </div>
 
                 <div class="skill-item">
                     <div class="skill-header"><span>HTML & CSS (WEB DEV)</span><span>98%</span></div>
