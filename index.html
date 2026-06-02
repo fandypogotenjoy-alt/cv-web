@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IRFANDY | Teknik Informatika</title>
@@ -22,11 +21,6 @@
         }
 
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        <script>
-        });
-    });
-  }
-</script>
 
         body {
             background-color: var(--dark-bg);
@@ -38,6 +32,7 @@
             justify-content: center;
             align-items: center;
         }
+        
         .slide-container {
             width: 100%;
             max-width: 1200px;
@@ -61,6 +56,7 @@
             from { opacity: 0; transform: scale(0.95); filter: blur(10px); }
             to { opacity: 1; transform: scale(1); filter: blur(0); }
         }
+        
         .scanlines {
             position: absolute;
             top: 0; left: 0; width: 100%; height: 100%;
@@ -69,6 +65,7 @@
             z-index: 10;
             pointer-events: none;
         }
+        
         .nav-dock {
             position: fixed;
             bottom: 25px;
@@ -121,6 +118,7 @@
             color: var(--neon-cyan);
             text-shadow: 0 0 10px var(--neon-cyan);
         }
+        
         .slide-title {
             font-family: 'Orbitron', sans-serif;
             font-size: 40px;
@@ -148,6 +146,7 @@
             z-index: 5;
             overflow-y: auto;
         }
+        
         .profile-grid {
             display: grid;
             grid-template-columns: 350px 1fr;
@@ -193,6 +192,7 @@
             50% { top: 100%; }
             100% { top: 0; }
         }
+        
         .skill-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -236,6 +236,7 @@
             transition: width 1.5s cubic-bezier(0.1, 1, 0.1, 1);
             box-shadow: 0 0 10px var(--neon-cyan);
         }
+        
         .career-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -258,6 +259,7 @@
             transform: translateY(-5px);
             box-shadow: 0 10px 20px rgba(0,0,0,0.5);
         }
+        
         .glitch-text {
             font-family: 'Orbitron', sans-serif;
             font-size: 64px;
@@ -275,9 +277,11 @@
             margin-top: 15px;
             text-transform: uppercase;
         }
+        
         .content-area::-webkit-scrollbar { width: 8px; }
         .content-area::-webkit-scrollbar-track { background: rgba(0,0,0,0.2); border-radius: 4px;}
         .content-area::-webkit-scrollbar-thumb { background: var(--neon-cyan); border-radius: 4px; }
+        
         @media (max-width: 768px) {
             .content-area {
                 padding: 20px 20px 180px 20px !important; 
@@ -329,7 +333,6 @@
         <div class="content-area" style="display: flex; align-items: center; justify-content: center; height: 100%;">
             <div class="profile-grid">
                 <div class="cyber-portrait">
-
                     <img src="fandy.jpeg" alt="Foto Irfandy">
                     <div class="portrait-overlay"></div>
                     <div class="scanner-bar"></div>
@@ -364,7 +367,6 @@
                     <div class="skill-bar"><div class="skill-fill" data-percent="94%"></div></div>
                 </div>
                 <div class="skill-item">
-            
                     <div class="skill-header"><span>ANIMASI & MOTION GRAPHICS</span><span>80%</span></div>
                     <div class="skill-bar"><div class="skill-fill" data-percent="80%"></div></div>
                 </div>
